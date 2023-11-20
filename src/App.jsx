@@ -1,5 +1,7 @@
 // import { useState } from 'react'
 
+import PasswordGenerator from "./components/PasswordGenerator"
+
 // import './App.css'
 // import BackgroundChanger from './components/BackgroundChanger'
 // import Counter from './components/Counter'
@@ -14,6 +16,7 @@ function App() {
     <Card userName="Preeti" />
   <Card btnText="check me out"/>*/}
   {/*<BackgroundChanger/>*/}
+  <PasswordGenerator/>
     </>
   )
 }
