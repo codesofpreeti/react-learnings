@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 
-import PasswordGenerator from "./components/PasswordGenerator"
+import CurrencyConverter from "./components/CurrencyConverter";
+// import PasswordGenerator from "./components/PasswordGenerator";
 
 // import './App.css'
 // import BackgroundChanger from './components/BackgroundChanger'
@@ -8,17 +9,17 @@ import PasswordGenerator from "./components/PasswordGenerator"
 // import Card from './components/Card'
 
 function App() {
-
   return (
     <>
-    {/*<Counter/>*/}
-    {/*<h1 className='bg-green-400 text-black p-4 rounded mb-4'>tailwind css</h1>
+      {/*<Counter/>*/}
+      {/*<h1 className='bg-green-400 text-black p-4 rounded mb-4'>tailwind css</h1>
     <Card userName="Preeti" />
-  <Card btnText="check me out"/>*/}
-  {/*<BackgroundChanger/>*/}
-  <PasswordGenerator/>
+    <Card btnText="check me out"/>*/}
+      {/*<BackgroundChanger/>
+        <PasswordGenerator/>*/}
+        <CurrencyConverter/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
